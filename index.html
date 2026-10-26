@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Básico -->
+  <title>Dra. Aline Rangel | Clínica Ranthé – Reabilitação Oral no Recreio dos Bandeirantes</title>
+  <meta name="description" content="Clínica odontológica no Recreio dos Bandeirantes com foco em Reabilitação Oral, implantes, próteses e clareamento dental. Atendimento acolhedor e humanizado até às 22h.">
+  <meta name="keywords" content="dentista no Recreio dos Bandeirantes, implante dentário Recreio, reabilitação oral, prótese dentária, clareamento dental, Dra Aline Rangel, Clínica Ranthé">
+  <meta name="author" content="Clínica Ranthé">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Dra. Aline Rangel | Clínica Ranthé – Reabilitação Oral no Recreio">
+  <meta property="og:description" content="Devolvendo saúde, função e estética ao seu sorriso. Atendimento humanizado no Recreio dos Bandeirantes, Rio de Janeiro.">
+  <!-- TROCAR AQUI: Inserir a URL da imagem de partilha social (ex: foto da fachada ou do consultório) -->
+  <meta property="og:image" content="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80">
+  <meta property="og:url" content="https://clinicaranthe.com.br">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Schema.org JSON-LD para SEO Local / Dentist -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Dra. Aline Rangel – Clínica Ranthé",
+    "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80",
+    "telephone": "+5521900000000",
+    "url": "https://clinicaranthe.com.br",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Avenida das Américas, 12900, Sala 202 D, Bloco 1 – Ala Equador",
+      "addressLocality": "Recreio dos Bandeirantes, Rio de Janeiro",
+      "addressRegion": "RJ",
+      "postalCode": "22790-702",
+      "addressCountry": "BR"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "22:00"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "68"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- 1. BARRA SUPERIOR FINA -->
+  <div class="top-bar">
+    <div class="container top-bar__content">
+      <div class="top-bar__info">
+        <!-- Ícone Relógio -->
+        <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        <span>Atendimento até às 22h • Recreio dos Bandeirantes</span>
+      </div>
+      <a href="https://www.instagram.com/clinicaranthe/" target="_blank" rel="noopener noreferrer" class="top-bar__link" aria-label="Acessar o perfil da Clínica Ranthé no Instagram">
+        <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+        <span>@clinicaranthe</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- 2. HEADER FIXO -->
+  <header class="header" id="header">
+    <div class="container header__content">
+      <a href="#inicio" class="logo" aria-label="Página inicial Dra. Aline Rangel Clínica Ranthé">
+        <span class="logo__brand">Ranthé</span>
+        <span class="logo__sub">Dra. Aline Rangel</span>
+      </a>
+
+      <!-- Botão Hambúrguer Mobile -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="navMenu">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+      </button>
+
+      <!-- Navegação Principal -->
+      <nav class="nav" id="navMenu" aria-label="Menu principal">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#inicio" class="nav__link active">Início</a></li>
+          <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li class="nav__item"><a href="#tratamentos" class="nav__link">Tratamentos</a></li>
+          <li class="nav__item"><a href="#como-funciona" class="nav__link">Como Funciona</a></li>
+          <li class="nav__item"><a href="#diferenciais" class="nav__link">Diferenciais</a></li>
+          <li class="nav__item"><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+          <li class="nav__item"><a href="#faq" class="nav__link">FAQ</a></li>
+          <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+        <div class="nav__cta-wrapper">
+          <a href="#" class="btn btn--primary btn--sm js-wa-trigger" data-message="Olá! Gostaria de agendar uma avaliação na Clínica Ranthé.">
+            Agendar avaliação
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 3. HERO SECTION -->
+    <section class="hero" id="inicio">
+      <div class="container hero__grid">
+        <div class="hero__text-col reveal-on-scroll">
+          <div class="rating-badge">
+            <div class="stars-group" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <span><strong>5,0 no Google</strong> • 68 avaliações</span>
+          </div>
+
+          <h1 class="hero__title">Devolvendo saúde, função e estética ao seu sorriso</h1>
+          <p class="hero__subtitle">
+            Cuidado odontológico especializado em Reabilitação Oral no Recreio dos Bandeirantes. Um atendimento calmo, transparente e humanizado para restaurar o seu bem-estar.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#" class="btn btn--primary btn--lg js-wa-trigger" data-message="Olá, Dra. Aline! Gostaria de conversar sobre meu tratamento e agendar um horário.">
+              <!-- Ícone WhatsApp -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+              Agendar pelo WhatsApp
+            </a>
+            <a href="#tratamentos" class="btn btn--outline btn--lg">Conheça os tratamentos</a>
+          </div>
+        </div>
+
+        <div class="hero__image-col reveal-on-scroll">
+          <div class="hero__image-wrapper">
+            <!-- TROCAR AQUI: Substituir a imagem abaixo pela foto do consultório ou da Dra. Aline -->
+            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80" alt="Consultório odontológico moderno e acolhedor da Clínica Ranthé" class="hero__image" loading="lazy">
+            
+            <!-- Cards Flutuantes -->
+            <div class="floating-card floating-card--top">
+              <div class="floating-card__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </div>
+              <div class="floating-card__text">
+                <strong>Atendimento Humanizado</strong>
+                <span>Escuta e dedicação real</span>
+              </div>
+            </div>
+
+            <div class="floating-card floating-card--bottom">
+              <div class="floating-card__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
+              <div class="floating-card__text">
+                <strong>Urgência Odontológica</strong>
+                <span>Cuidado rápido para sua dor</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. FAIXA DE CONFIANÇA -->
+    <section class="trust-bar" aria-label="Destaques de confiança">
+      <div class="container trust-bar__grid">
+        <div class="trust-item">
+          <div class="trust-item__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+          </div>
+          <div>
+            <h3 class="trust-item__title">Atendimento até 22h</h3>
+            <p class="trust-item__desc">Horário estendido para sua comodidade</p>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-item__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div>
+            <h3 class="trust-item__title">Nota 5,0 no Google</h3>
+            <p class="trust-item__desc">68 avaliações reais e espontâneas</p>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-item__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+          </div>
+          <div>
+            <h3 class="trust-item__title">Foco em Reabilitação</h3>
+            <p class="trust-item__desc">Saúde, mastigação e equilíbrio estético</p>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-item__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+          </div>
+          <div>
+            <h3 class="trust-item__title">Atendimento de Urgência</h3>
+            <p class="trust-item__desc">Prontidão para aliviar o seu desconforto</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. SOBRE A CLÍNICA -->
+    <section class="section about" id="sobre">
+      <div class="container about__grid">
+        <div class="about__image-col reveal-on-scroll">
+          <div class="about__image-box">
+            <!-- TROCAR AQUI: Substituir pela foto oficial da Dra. Aline Rangel -->
+            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=700&q=80" alt="Dra. Aline Rangel em atendimento na Clínica Ranthé" class="about__image" loading="lazy">
+            <div class="about__badge">
+              <span class="about__badge-name">Dra. Aline Rangel</span>
+              <span class="about__badge-role">Reabilitação Oral & Estética</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__text-col reveal-on-scroll">
+          <span class="section-tag">Acolhimento & Respeito</span>
+          <h2 class="section-title">Um consultório onde você é ouvido com calma e atenção</h2>
+          <p class="about__paragraph">
+            A <strong>Clínica Ranthé</strong> é um consultório odontológico focado em <strong>Reabilitação Oral</strong>, criado com o propósito de devolver saúde e estética aos sorrisos através de tratamentos integrados e de excelência.
+          </p>
+          <p class="about__paragraph">
+            Prezamos profundamente pela <strong>humanidade no atendimento</strong>: cada paciente recebe suporte integral, sem pressa, com espaço aberto para esclarecer todas as dúvidas.
+          </p>
+
+          <blockquote class="about__quote">
+            "Acreditamos que o tratamento ideal nasce de explicar tudo com calma e construir juntos o melhor caminho para a sua saúde bucal."
+          </blockquote>
+
+          <div class="about__features">
+            <div class="about__feature-item">
+              <span class="check-icon">✓</span>
+              <span>Comunicação transparente em cada fase</span>
+            </div>
+            <div class="about__feature-item">
+              <span class="check-icon">✓</span>
+              <span>Foco na causa biológica e funcional</span>
+            </div>
+            <div class="about__feature-item">
+              <span class="check-icon">✓</span>
+              <span>Ambiente tranquilo e acolhedor</span>
+            </div>
+          </div>
+
+          <div class="about__cta">
+            <a href="#" class="btn btn--primary js-wa-trigger" data-message="Olá, Dra. Aline! Li sobre a Clínica Ranthé e gostaria de marcar uma consulta.">Conversar com a Dra. Aline</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. TRATAMENTOS -->
+    <section class="section services" id="tratamentos">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Especialidades</span>
+          <h2 class="section-title">Tratamentos completos para o seu sorriso</h2>
+          <p class="section-subtitle">Técnicas modernas e planejamentos individualizados para devolver função mastigatória, harmonia e bem-estar.</p>
+        </div>
+
+        <div class="services__grid">
+          <!-- Card Destacado: Reabilitação Oral -->
+          <article class="service-card service-card--featured reveal-on-scroll">
+            <div class="service-card__badge">Destaque da Clínica</div>
+            <div class="service-card__icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <h3 class="service-card__title">Reabilitação Oral Completa</h3>
+            <p class="service-card__desc">Planejamento integrado que envolve estética, oclusão (mordida) e função mastigatória, restabelecendo dentes desgastados, ausentes ou desalinhados.</p>
+            <a href="#" class="service-card__link js-wa-trigger" data-message="Olá! Tenho interesse em saber mais sobre a Reabilitação Oral na Clínica Ranthé.">
+              <span>Saiba mais sobre Reabilitação</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </article>
+
+          <!-- Implantes Dentais -->
+          <article class="service-card reveal-on-scroll">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+            </div>
+            <h3 class="service-card__title">Implantes Dentais</h3>
+            <p class="service-card__desc">Reposição segura de raízes e dentes perdidos, recuperando a firmeza ao mastigar e a segurança ao sorrir.</p>
+            <a href="#" class="service-card__link js-wa-trigger" data-message="Olá! Gostaria de tirar dúvidas sobre implantes dentais na Clínica Ranthé.">
+              <span>Saiba mais</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </article>
+
+          <!-- Próteses Dentárias -->
+          <article class="service-card reveal-on-scroll">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path></svg>
+            </div>
+            <h3 class="service-card__title">Próteses Dentárias</h3>
+            <p class="service-card__desc">Opções fixas ou removíveis desenhadas com precisão para anatomia bucal confortável, estável e natural.</p>
+            <a href="#" class="service-card__link js-wa-trigger" data-message="Olá! Gostaria de informações sobre próteses dentárias com a Dra. Aline.">
+              <span>Saiba mais</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </article>
+
+          <!-- Clareamento Dental -->
+          <article class="service-card reveal-on-scroll">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <h3 class="service-card__title">Clareamento Dental</h3>
+            <p class="service-card__desc">Procedimento seguro para remover manchas e clarear o tom dental, com supervisão clínica rigorosa e conforto gengival.</p>
+            <a href="#" class="service-card__link js-wa-trigger" data-message="Olá! Tenho interesse em realizar clareamento dental. Podem me passar mais detalhes?">
+              <span>Saiba mais</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </article>
+
+          <!-- Saúde Periodontal -->
+          <article class="service-card reveal-on-scroll">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path><line x1="4" y1="22" x2="4" y2="15"></line></svg>
+            </div>
+            <h3 class="service-card__title">Saúde Periodontal (Gengiva)</h3>
+            <p class="service-card__desc">Prevenção e tratamento da gengivite e periodontite, cuidando da base dos seus dentes para mantê-los fortes e sadios.</p>
+            <a href="#" class="service-card__link js-wa-trigger" data-message="Olá! Preciso de uma avaliação para cuidados de saúde periodontal (gengiva).">
+              <span>Saiba mais</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </article>
+
+          <!-- Avaliação e Consulta -->
+          <article class="service-card reveal-on-scroll">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+            </div>
+            <h3 class="service-card__title">Avaliação Odontológica</h3>
+            <p class="service-card__desc">Consulta inicial atenta e sem pressa, com diagnóstico minucioso da saúde bucal e alinhamento de expectativas.</p>
+            <a href="#" class="service-card__link js-wa-trigger" data-message="Olá! Desejo agendar minha primeira avaliação odontológica na Clínica Ranthé.">
+              <span>Saiba mais</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDER ANTES / DEPOIS (ESPAÇO PARA CASOS REAIS) -->
+    <!-- NOTA CFO: Utilize unicamente fotografias autorizadas expressamente por escrito pelo paciente. -->
+    <section class="section comparison" aria-label="Casos clínicos e evolução">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Transformações Reais</span>
+          <h2 class="section-title">A precisão em cada detalhe</h2>
+          <p class="section-subtitle">Arraste o controle para comparar os detalhes da harmonia e reabilitação do sorriso.</p>
+        </div>
+
+        <div class="comparison-container reveal-on-scroll">
+          <div class="comparison-slider" id="comparisonSlider">
+            <!-- Imagem "Antes" (Fundo) -->
+            <!-- TROCAR AQUI: Inserir imagem 'Antes' autorizada -->
+            <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1000&q=80" alt="Caso de reabilitação antes do procedimento" class="comparison-img comparison-img--before">
+
+            <!-- Imagem "Depois" (Sobreposta com clip) -->
+            <!-- TROCAR AQUI: Inserir imagem 'Depois' autorizada -->
+            <div class="comparison-overlay" id="comparisonOverlay">
+              <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1000&q=80" alt="Resultado de reabilitação e harmonia do sorriso" class="comparison-img comparison-img--after">
+            </div>
+
+            <!-- Divisor visual e alça -->
+            <div class="comparison-handle" id="comparisonHandle">
+              <span class="handle-arrow">◀▶</span>
+            </div>
+
+            <!-- Input invisível para controle táctil/mouse/acessibilidade -->
+            <input type="range" min="0" max="100" value="50" class="comparison-range" id="comparisonRange" aria-label="Comparar antes e depois arrastando o controle">
+          </div>
+          <div class="comparison-labels">
+            <span>Antes do planejamento</span>
+            <span>Após a reabilitação</span>
+          </div>
+          <p class="comparison-disclaimer">Nota: Os resultados podem variar conforme a anatomia biológica e a resposta clínica de cada indivíduo.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. COMO FUNCIONA O ATENDIMENTO -->
+    <section class="section timeline-section" id="como-funciona">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Nossa Metodologia</span>
+          <h2 class="section-title">Como funciona o seu atendimento</h2>
+          <p class="section-subtitle">Etapas transparentes pensadas para que você se sinta seguro e compreenda todo o processo.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline__item reveal-on-scroll">
+            <div class="timeline__marker">1</div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Avaliação e escuta ativa</h3>
+              <p class="timeline__text">Ouvimos suas queixas, histórico e expectativas. Um momento calmo para entender não apenas o dente, mas o paciente por inteiro.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal-on-scroll">
+            <div class="timeline__marker">2</div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Explicação do diagnóstico</h3>
+              <p class="timeline__text">Apresentamos as condições identificadas com linguagem clara, mostrando imagens e radiografias sem jargões complexos.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal-on-scroll">
+            <div class="timeline__marker">3</div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Plano de tratamento personalizado</h3>
+              <p class="timeline__text">Desenhamos a estratégia passo a passo, esclarecendo opções, prioridades e estimativas de cronograma para o seu caso.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal-on-scroll">
+            <div class="timeline__marker">4</div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Tratamento e acompanhamento</h3>
+              <p class="timeline__text">Execução cuidadosa com máximo conforto, seguida por manutenção preventiva contínua para preservar sua saúde oral a longo prazo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. DIFERENCIAIS -->
+    <section class="section differentials" id="diferenciais">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Por Que a Ranthé</span>
+          <h2 class="section-title">Diferenciais pensados para você</h2>
+          <p class="section-subtitle">Valores que orientam cada consulta na Clínica Ranthé.</p>
+        </div>
+
+        <div class="differentials__grid">
+          <div class="differential-card reveal-on-scroll">
+            <div class="differential-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </div>
+            <h3 class="differential-card__title">Atendimento Humanizado</h3>
+            <p class="differential-card__desc">Acolhimento gentil e escuta atenta, criando um ambiente tranquilo para quem tem receio de ir ao dentista.</p>
+          </div>
+
+          <div class="differential-card reveal-on-scroll">
+            <div class="differential-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+            </div>
+            <h3 class="differential-card__title">Explicações Claras</h3>
+            <p class="differential-card__desc">Fazemos questão de detalhar cada procedimento para que você saiba exatamente o que será feito e por quê.</p>
+          </div>
+
+          <div class="differential-card reveal-on-scroll">
+            <div class="differential-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+            </div>
+            <h3 class="differential-card__title">Transparência e Preço Justo</h3>
+            <p class="differential-card__desc">Condições éticas, clareza sobre custos e materiais selecionados com rigor de qualidade.</p>
+          </div>
+
+          <div class="differential-card reveal-on-scroll">
+            <div class="differential-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <h3 class="differential-card__title">Excelência Técnica</h3>
+            <p class="differential-card__desc">Prática odontológica atualizada e baseada em evidências científicas sólidas para longevidade dos resultados.</p>
+          </div>
+
+          <div class="differential-card reveal-on-scroll">
+            <div class="differential-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            </div>
+            <h3 class="differential-card__title">Acolhimento Rápido em Dor</h3>
+            <p class="differential-card__desc">Suporte com agilidade em casos de dor ou incômodo agudo, com foco em trazer alívio rápido.</p>
+          </div>
+
+          <div class="differential-card reveal-on-scroll">
+            <div class="differential-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            </div>
+            <h3 class="differential-card__title">Horário Estendido (Até 22h)</h3>
+            <p class="differential-card__desc">Flexibilidade para agendar sua consulta após o expediente de trabalho ou estudo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. SEÇÃO DE URGÊNCIA -->
+    <section class="urgency-section" aria-label="Atendimento de emergência odontológica">
+      <div class="container urgency-section__inner reveal-on-scroll">
+        <div class="urgency-section__text">
+          <div class="urgency-tag">
+            <span class="pulsing-dot"></span>
+            <span>Plantão e Atendimento Rápido</span>
+          </div>
+          <h2 class="urgency-section__title">Está sentindo dor ou quebrou um dente?</h2>
+          <p class="urgency-section__desc">
+            Em caso de dor aguda ou emergência odontológica, entre em contato imediatamente com a Clínica Ranthé. Faremos o possível para lhe atender com imediatismo e devolver seu conforto.
+          </p>
+        </div>
+        <div class="urgency-section__cta">
+          <a href="#" class="btn btn--white btn--lg js-wa-trigger" data-message="URGÊNCIA: Olá, estou com dor/emergência odontológica e preciso de atendimento imediato.">
+            <!-- Ícone WhatsApp -->
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+            Chamar no WhatsApp de Urgência
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. DEPOIMENTOS (CARROSSEL) -->
+    <section class="section testimonials" id="depoimentos">
+      <div class="container">
+        <div class="testimonials__header reveal-on-scroll">
+          <div class="section-header" style="margin-bottom: 0;">
+            <span class="section-tag">Depoimentos Verificados</span>
+            <h2 class="section-title">O que dizem os nossos pacientes</h2>
+          </div>
+
+          <!-- Contador com Nota Google -->
+          <div class="testimonials__score-box">
+            <div class="testimonials__score-val">5,0</div>
+            <div class="testimonials__score-info">
+              <div class="stars-group">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <span class="testimonials__count">68 avaliações no Google</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Componente Carrossel -->
+        <div class="carousel" id="testimonialCarousel" aria-roledescription="carrossel">
+          <div class="carousel__track-container">
+            <ul class="carousel__track">
+              <!-- Slide 1 -->
+              <li class="carousel__slide is-active" aria-roledescription="slide" aria-label="1 de 3">
+                <div class="testimonial-card">
+                  <div class="testimonial-card__header">
+                    <div class="google-badge">
+                      <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/></svg>
+                      <span>Avaliação Google</span>
+                    </div>
+                    <div class="stars-group">★★★★★</div>
+                  </div>
+                  <p class="testimonial-card__text">"Faz questão de explicar todos os procedimentos com calma e gentileza."</p>
+                  <div class="testimonial-card__author">
+                    <span class="testimonial-card__name">Paciente verificado</span>
+                    <span class="testimonial-card__loc">Recreio dos Bandeirantes, RJ</span>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Slide 2 -->
+              <li class="carousel__slide" aria-roledescription="slide" aria-label="2 de 3">
+                <div class="testimonial-card">
+                  <div class="testimonial-card__header">
+                    <div class="google-badge">
+                      <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/></svg>
+                      <span>Avaliação Google</span>
+                    </div>
+                    <div class="stars-group">★★★★★</div>
+                  </div>
+                  <p class="testimonial-card__text">"Explica tudo na consulta e o trabalho é impecável!!"</p>
+                  <div class="testimonial-card__author">
+                    <span class="testimonial-card__name">Paciente verificado</span>
+                    <span class="testimonial-card__loc">Recreio dos Bandeirantes, RJ</span>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Slide 3 -->
+              <li class="carousel__slide" aria-roledescription="slide" aria-label="3 de 3">
+                <div class="testimonial-card">
+                  <div class="testimonial-card__header">
+                    <div class="google-badge">
+                      <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/></svg>
+                      <span>Avaliação Google</span>
+                    </div>
+                    <div class="stars-group">★★★★★</div>
+                  </div>
+                  <p class="testimonial-card__text">"Ótima profissional, serviço com excelência e preço justo."</p>
+                  <div class="testimonial-card__author">
+                    <span class="testimonial-card__name">Paciente verificado</span>
+                    <span class="testimonial-card__loc">Recreio dos Bandeirantes, RJ</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Controles do Carrossel -->
+          <div class="carousel__controls">
+            <button class="carousel__btn carousel__btn--prev" id="prevBtn" aria-label="Depoimento anterior">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <div class="carousel__dots" id="carouselDots" role="tablist" aria-label="Selecione o depoimento"></div>
+            <button class="carousel__btn carousel__btn--next" id="nextBtn" aria-label="Próximo depoimento">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+          </div>
+
+          <div class="testimonials__footer-cta">
+            <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm">
+              Ver todas as avaliações no Google
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. FAQ (ACORDEÃO) -->
+    <section class="section faq" id="faq">
+      <div class="container faq__container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Dúvidas Frequentes</span>
+          <h2 class="section-title">Perguntas comuns sobre os atendimentos</h2>
+          <p class="section-subtitle">Esclareça suas dúvidas iniciais de forma simples e direta.</p>
+        </div>
+
+        <div class="accordion" id="faqAccordion">
+          <!-- Item 1 -->
+          <div class="accordion__item reveal-on-scroll">
+            <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-ans-1" id="faq-btn-1">
+              <span>Colocar implante dentário dói?</span>
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion__panel" id="faq-ans-1" role="region" aria-labelledby="faq-btn-1" hidden>
+              <div class="accordion__content">
+                <p>O procedimento cirúrgico é feito com anestesia local eficiente, garantindo que você não sinta dor durante o ato. No pós-operatório, são prescritos analgésicos e anti-inflamatórios adequados para assegurar uma recuperação suave e confortável.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="accordion__item reveal-on-scroll">
+            <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-ans-2" id="faq-btn-2">
+              <span>Quanto tempo dura o clareamento dental?</span>
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion__panel" id="faq-ans-2" role="region" aria-labelledby="faq-btn-2" hidden>
+              <div class="accordion__content">
+                <p>A durabilidade do clareamento varia conforme os hábitos alimentares (como consumo frequente de café, vinho e alimentos com corantes) e higiene bucal. Em média, os resultados mantêm-se vívidos por 1 a 2 anos, podendo receber manutenções periódicas orientadas pela Dra. Aline.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="accordion__item reveal-on-scroll">
+            <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-ans-3" id="faq-btn-3">
+              <span>O que é Reabilitação Oral?</span>
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion__panel" id="faq-ans-3" role="region" aria-labelledby="faq-btn-3" hidden>
+              <div class="accordion__content">
+                <p>A Reabilitação Oral é uma abordagem integrada que une diferentes tratamentos (como próteses, implantes, periodontia e restaurações) para recuperar tanto a função correta da mastigação e articulação quanto a estética natural do sorriso.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="accordion__item reveal-on-scroll">
+            <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-ans-4" id="faq-btn-4">
+              <span>Como funciona a primeira consulta de avaliação?</span>
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion__panel" id="faq-ans-4" role="region" aria-labelledby="faq-btn-4" hidden>
+              <div class="accordion__content">
+                <p>Na primeira consulta, a Dra. Aline realiza um exame clínico minucioso, compreende suas queixas, analisa exames radiográficos e esclarece todas as dúvidas com tranquilidade, indicando os caminhos e prioridades mais recomendados para o seu bem-estar.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="accordion__item reveal-on-scroll">
+            <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-ans-5" id="faq-btn-5">
+              <span>Vocês atendem urgências ou casos de dor?</span>
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion__panel" id="faq-ans-5" role="region" aria-labelledby="faq-btn-5" hidden>
+              <div class="accordion__content">
+                <p>Sim. Em caso de dor aguda, dente quebrado ou outra emergência odontológica, entre em contato via WhatsApp. Nosso objetivo é sempre buscar um encaixe o mais rápido possível para promover o alívio imediato do seu desconforto.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="accordion__item reveal-on-scroll">
+            <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-ans-6" id="faq-btn-6">
+              <span>Quais são as formas de pagamento disponíveis?</span>
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion__panel" id="faq-ans-6" role="region" aria-labelledby="faq-btn-6" hidden>
+              <div class="accordion__content">
+                <p>Disponibilizamos opções facilitadas de parcelamento e pagamento adaptadas ao seu planejamento financeiro. Fale conosco pelo WhatsApp para conhecer detalhadamente as condições para cada plano de tratamento.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. CONTATO E LOCALIZAÇÃO -->
+    <section class="section contact" id="contato">
+      <div class="container contact__grid">
+        <!-- Coluna de Informações e Mapa -->
+        <div class="contact__info-col reveal-on-scroll">
+          <span class="section-tag">Onde Estamos</span>
+          <h2 class="section-title">Venha cuidar do seu sorriso no Recreio</h2>
+          
+          <div class="contact__card">
+            <div class="contact__item">
+              <div class="contact__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div>
+                <strong>Endereço:</strong>
+                <p>Avenida das Américas, 12900, Sala 202 D, Bloco 1 – Ala Equador<br>Recreio dos Bandeirantes, Rio de Janeiro – RJ<br>CEP 22790-702</p>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <div class="contact__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              </div>
+              <div>
+                <strong>Horário de Atendimento:</strong>
+                <!-- DIAS DE FUNCIONAMENTO EDITÁVEIS: Segunda a Sexta das 08h às 22h (Ajustar dias conforme rotina da clínica) -->
+                <p>Segunda a Sexta: Atendimento com horário agendado até às 22h</p>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <div class="contact__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              </div>
+              <div>
+                <strong>Instagram Oficial:</strong>
+                <p><a href="https://www.instagram.com/clinicaranthe/" target="_blank" rel="noopener noreferrer" class="link-clean">@clinicaranthe</a></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mapa Incorporado -->
+          <div class="contact__map-wrapper">
+            <iframe 
+              title="Localização da Clínica Ranthé no Recreio dos Bandeirantes"
+              src="https://maps.google.com/maps?q=Avenida%20das%20Am%C3%A9ricas,%2012900,%20Recreio%20dos%20Bandeirantes,%20Rio%20de%20Janeiro&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade" 
+              class="contact__map">
+            </iframe>
+          </div>
+
+          <div class="contact__map-action">
+            <a href="https://maps.google.com/?q=Avenida+das+Am%C3%A9ricas+12900+Recreio+dos+Bandeirantes+Rio+de+Janeiro" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--block">
+              <!-- Ícone Mapa -->
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon><line x1="8" y1="2" x2="8" y2="18"></line><line x1="16" y1="6" x2="16" y2="22"></line></svg>
+              Como chegar (Google Maps)
+            </a>
+          </div>
+        </div>
+
+        <!-- Formulário de Mensagem Direta para o WhatsApp -->
+        <div class="contact__form-col reveal-on-scroll">
+          <div class="contact__form-card">
+            <h3 class="form-title">Envie uma mensagem</h3>
+            <p class="form-desc">Preencha os campos abaixo para abrir uma conversa direta no WhatsApp com a Dra. Aline.</p>
+
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="formName" class="form-label">Nome completo *</label>
+                <input type="text" id="formName" name="name" class="form-input" placeholder="Ex: Maria da Silva" required>
+                <span class="form-error" id="nameError">Por favor, digite seu nome.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="formPhone" class="form-label">Seu WhatsApp *</label>
+                <input type="tel" id="formPhone" name="phone" class="form-input" placeholder="(21) 99999-9999" required>
+                <span class="form-error" id="phoneError">Por favor, informe seu telefone com DDD.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="formTreatment" class="form-label">Tratamento de interesse *</label>
+                <select id="formTreatment" name="treatment" class="form-input" required>
+                  <option value="" disabled selected>Selecione uma opção...</option>
+                  <option value="Reabilitação Oral">Reabilitação Oral</option>
+                  <option value="Implantes Dentais">Implantes Dentais</option>
+                  <option value="Próteses Dentárias">Próteses Dentárias</option>
+                  <option value="Clareamento Dental">Clareamento Dental</option>
+                  <option value="Saúde Periodontal">Saúde Periodontal (Gengiva)</option>
+                  <option value="Primeira Consulta de Avaliação">Primeira Consulta de Avaliação</option>
+                  <option value="Urgência / Dor">Estou com dor (Urgência)</option>
+                  <option value="Outro assunto">Outro assunto</option>
+                </select>
+                <span class="form-error" id="treatmentError">Selecione uma das opções.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="formMessage" class="form-label">Mensagem ou dúvida (opcional)</label>
+                <textarea id="formMessage" name="message" class="form-textarea" rows="4" placeholder="Descreva sucintamente como podemos ajudar..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--block">
+                <!-- Ícone WhatsApp -->
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                Iniciar conversa no WhatsApp
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 13. FOOTER -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__col">
+        <a href="#inicio" class="logo logo--footer" aria-label="Voltar ao início">
+          <span class="logo__brand">Ranthé</span>
+          <span class="logo__sub">Dra. Aline Rangel</span>
+        </a>
+        <p class="footer__bio">
+          Consultório focado em Reabilitação Oral. Odontologia de excelência, humana e transparente para devolver a harmonia, a função e o bem-estar do seu sorriso.
+        </p>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__title">Navegação Rápida</h4>
+        <ul class="footer__links">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre a Clínica</a></li>
+          <li><a href="#tratamentos">Especialidades</a></li>
+          <li><a href="#como-funciona">Metodologia</a></li>
+          <li><a href="#diferenciais">Diferenciais</a></li>
+          <li><a href="#faq">Dúvidas Frequentes</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__title">Localização & Contato</h4>
+        <p class="footer__info">
+          Av. das Américas, 12900 – Sala 202 D, Bloco 1 (Ala Equador)<br>
+          Recreio dos Bandeirantes, Rio de Janeiro – RJ<br>
+          CEP: 22790-702
+        </p>
+        <p class="footer__info">
+          Atendimento até às 22h com agendamento prévio.
+        </p>
+        <div class="footer__socials">
+          <a href="https://www.instagram.com/clinicaranthe/" target="_blank" rel="noopener noreferrer" class="footer__social-btn" aria-label="Acesse o Instagram da Clínica Ranthé">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            Instagram: @clinicaranthe
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Linha de Direitos e Exigência CFO -->
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© 2026 Clínica Ranthé – Dra. Aline Rangel. Todos os direitos reservados.</p>
+        
+        <!-- REGISTRO PROFISSIONAL DO CFO/CRO:
+             TROCAR AQUI: Inserir o CRO do profissional responsável conforme Código de Ética Odontológica CFO.
+             Exemplo: "Responsável Técnica: Dra. Aline Rangel – CRO-RJ XXXXX" -->
+        <p class="footer__cro">
+          Responsável Técnica: Dra. Aline Rangel <!-- TROCAR AQUI: | CRO-RJ: XXXXX -->
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BOTÃO FLUTUANTE DE WHATSAPP -->
+  <div class="floating-whatsapp-container">
+    <a href="#" class="floating-whatsapp-btn js-wa-trigger" aria-label="Fale conosco pelo WhatsApp" data-message="Olá! Estou navegando no site da Clínica Ranthé e gostaria de tirar uma dúvida.">
+      <span class="floating-whatsapp-tooltip">Fale com a gente</span>
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+    </a>
+  </div>
+
+  <!-- BARRA FIXA DE CTA NO MOBILE -->
+  <div class="mobile-sticky-cta" id="mobileStickyCta">
+    <a href="#" class="btn btn--primary btn--block js-wa-trigger" data-message="Olá! Gostaria de agendar uma avaliação na Clínica Ranthé.">
+      <!-- Ícone Calendário -->
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+      Agendar Avaliação
+    </a>
+  </div>
+
+  <!-- Script Modular -->
+  <script src="script.js"></script>
+</body>
+</html>
